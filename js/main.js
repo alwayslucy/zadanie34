@@ -1,10 +1,13 @@
 let tekst1 = "Uwielbiam JavaScript";
 let tekst2 = "Jestem świetnym programistą";
 
-if (tekst1.length > tekst2.length) { 
-    console.log (tekst1);
+function longer(par1, par2) {
+if (par1.length > par2.length) { 
+    console.log(par1);
 } 
 
 else {
-    console.log (tekst2);
+    console.log(par2);
 }
+}
+console.log( longer(tekst1,tekst2) );
