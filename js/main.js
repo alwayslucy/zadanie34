@@ -3,11 +3,13 @@ let tekst2 = "Jestem świetnym programistą";
 
 function longer(par1, par2) {
 if (par1.length > par2.length) { 
-    console.log(par1);
+    let result = par1;
+    return result;
 } 
 
 else {
-    console.log(par2);
+    let result = par2;
+    return result;
 }
 }
 console.log( longer(tekst1,tekst2) );
